@@ -1,0 +1,15 @@
+Type: IPython Notebook Extension
+Name: Default Cell
+Description: 'adds a toolbar button which pastes the current time & date into the current cell'
+Main: main.js
+Compatibility: 4.x, 5.x
+Link: readme.md
+Parameters:
+- name: cell_input
+  description: Cell Input
+  input_type: text
+  default: 'import numpy as np<br>import pandas as pd'
+- name: run_cell
+  description: Run Cell Automatically
+  input_type: checkbox
+  default: true
