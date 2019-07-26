@@ -27,3 +27,6 @@ Two configurations are available:
 
 * Cell Input: the text which will be executed. Use `<br>` for new-lines
 * Run Automatically: whether to run the cell on startup or not
+
+--------------
+Based on the code and instructions of [this blogpost](https://towardsdatascience.com/how-to-write-a-jupyter-notebook-extension-a63f9578a38c) by Will Koehrsen.
